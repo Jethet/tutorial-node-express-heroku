@@ -3,10 +3,17 @@ var app = express();
 var bodyParser = require("body-parser");
 var fs = require("fs");
 var multer = require("multer");
+var cookieParser = require("cookie-parser");
 
+var app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(multer({ dest: "/tmp" }));
+app.use(cookieParser());
+
+app.get("/", function(req, res) {
+  console.log("Cookies:", req.cookies);
+});
 
 app.get("/index.html", function(req, res) {
   res.sendFile(__dirname + "/" + "index.html");
