@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-node-express-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jethet/tutorial-node-express-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jethet/tutorial-node-express-framework/issues"
+  },
+  "homepage": "https://github.com/Jethet/tutorial-node-express-framework#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "password-generator": "^2.3.2"
+  }
+}
