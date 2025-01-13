@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Jethet/tutorial-node-express-framework#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "nodemon": "^2.0.6",
+    "nodemon": "^2.0.20",
     "password-generator": "^2.3.2"
   }
 }
